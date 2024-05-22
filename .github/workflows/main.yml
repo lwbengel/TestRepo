@@ -35,6 +35,3 @@ jobs:
           LW_ACCOUNT: ${{ secrets.LW_ACCOUNT }}
           LW_API_KEY: ${{ secrets.LW_API_KEY }}
           LW_API_SECRET: ${{ secrets.LW_API_SECRET }}
-```
-
-I've fixed the indentation and added the `on` keyword before defining the events that trigger the workflow. Also, I've aligned the `env` section properly within the `build` job.
